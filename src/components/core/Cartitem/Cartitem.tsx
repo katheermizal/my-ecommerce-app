@@ -18,7 +18,7 @@ export const Cartitem = ({ price, title, image, url, id, subTotal, quantity }: C
           <ProductImage imageAlt={title} imagePath={image} />
         </a>
 
-        <div className="flex flex-col ml-3 lg:pr-8">
+        <div className="flex flex-col pr-2 ml-3 lg:pr-8">
           <span className="w-auto text-sm font-medium lg:text-md xl:text-xl">{title}</span>
           <span className="text-xs font-medium text-gray-500 lg:text-md xl:text-lg">{price}</span>
         </div>

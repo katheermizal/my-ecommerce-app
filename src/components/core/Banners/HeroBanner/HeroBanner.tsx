@@ -19,7 +19,7 @@ export const HeroBanner = ({
   content,
 }: HeroBannerProps) => {
   return (
-    <div className="relative z-10 flex flex-col w-full lg:h-auto sm:h-96">
+    <div className="relative z-10 flex flex-col w-full bg-white lg:h-auto sm:h-96">
       <img src={Images.BANNER} className={'h-full w-full object-cover object-center'} />
       <div className={classNames([
         'top-0 bottom-0 left-0 right-0 flex items-center max-w-2xl px-4 py-8 mx-auto border-b',
